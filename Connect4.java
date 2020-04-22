@@ -9,6 +9,10 @@ package core;
  */
 public class Connect4 {
 
+    /**
+    * Class SuccessObject is returned when addPiece is called. It contains a boolean to tell if the piece was successfully added
+    * and other information about the piece that was added.
+    */
     public static class SuccessObject extends Connect4 {
         private boolean x;
         private char player;
